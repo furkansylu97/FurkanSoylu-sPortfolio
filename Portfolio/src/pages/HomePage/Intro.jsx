@@ -44,16 +44,16 @@ function Intro() {
     <section>
       <div className="h-[85vh] flex columns-2">
         <div className="w-1/2 h-full flex flex-col gap-5 justify-center items-start mx-20">
-          <h1 className="text-white text-7xl font-serif">
+          <h1 className="text-white text-6xl font-serif">
             Hi, I am <span>Furkan Soylu</span>
           </h1>
-          <h3 className="text-secondary text-transparent text-6xl italic transition-all duration-500 ease-in-out careerTitle">
+          <h3 className="text-secondary text-transparent text-5xl italic transition-all duration-500 ease-in-out min-h-[4rem] careerTitle">
             {text}
           </h3>
-          <h1 className="text-tertiary text-3xl font-normal">
+          <h1 className="text-tertiary text-2xl font-normal">
             "I Transform your imagination into functional code"
           </h1>
-          <p className="text-white text-2xl w-10/12 font-normal">
+          <p className="text-white text-xl w-10/12 font-normal">
             I craft responsive, accessible, and high-performing web applications
             tailored to user needs. With a passion for clean code and
             cutting-edge technologies, I deliver solutions that are both

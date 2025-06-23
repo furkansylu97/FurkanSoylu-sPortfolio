@@ -15,7 +15,7 @@ function About() {
               autoplay
             />
           </div>
-          <div className="flex flex-col w-1/2 items-center justify-center px-4 mx-5 gap-4 border-solid border-2 border-secondary rounded-2xl">
+          <div className="flex flex-col w-1/2 items-center justify-center px-4 mx-5 gap-4 border-solid border-2 border-secondary rounded-2xl italic">
             <p className="text-primary text-base font-medium">
               My name is Furkan Soylu, and I graduated from the Department of
               Mechatronics Engineering at Katip Çelebi University, where the
