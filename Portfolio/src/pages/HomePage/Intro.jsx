@@ -61,7 +61,7 @@ function Intro() {
           </p>
           <button className="border-2 border-secondary text-secondary text-2xl font-medium mt-10 px-10 py-5 rounded">Get Started</button>
         </div>
-        <div className="w-1/2 h-full flex relative justify-center items-center">
+        <div className="w-1/2 h-full flex relative justify-center items-center select-none">
           <div className="h-2/3 w-2/3 inline-block z-0 animate-spin-slow"> 
             <img src={logo} alt="logo" className="h-full w-full object-contain origin-center" />
           </div>
