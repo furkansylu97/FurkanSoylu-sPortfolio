@@ -60,12 +60,12 @@ function Intro() {
             innovative and dependable.
           </p>
         </div>
-        <div>
-          <div>
-            <img src={logo} alt="logo" />
+        <div className="w-1/2 h-full flex relative justify-center items-center">
+          <div className="h-3/5 w-3/5 inline-block z-0">
+            <img src={logo} alt="logo" className="h-full w-full" />
           </div>
-          <div>
-            <img src={user} alt="" />
+          <div className="absolute z-10">
+            <img src={user} alt="user" className=" w-96 h-96" />
           </div>
         </div>
       </div>
