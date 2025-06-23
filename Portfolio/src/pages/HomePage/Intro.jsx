@@ -41,8 +41,8 @@ function Intro() {
     return () => clearTimeout(timeout);
   }, [text, isDeleting, loopIndex]);
   return (
-    <>
-      <div className="h-[85vh] bg-gradient-to-r from-primary to-white flex columns-2">
+    <section>
+      <div className="h-[85vh] flex columns-2">
         <div className="w-1/2 h-full flex flex-col gap-5 justify-center items-start mx-20">
           <h1 className="text-white text-7xl font-serif">
             Hi, I am <span>Furkan Soylu</span>
@@ -70,7 +70,7 @@ function Intro() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 
