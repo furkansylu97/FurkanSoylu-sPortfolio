@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTitle from "../../components/SectionTitle";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import icons from "../../components/Icons";
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
       <div>
         <SectionTitle title="About Me" />
         <div className="flex w-full">
-          <div className="h-[50vh] w-1/2 pr-52">
+          <div className="h-[45vh] w-1/2 pr-52">
             <DotLottieReact
               src="https://lottie.host/50888e59-bf72-47b5-8a35-8f6f9b3e691c/5Vk5cWtcEP.lottie"
               loop
@@ -34,6 +35,26 @@ function About() {
               individual committed to learning and growing in the technology
               field.
             </p>
+          </div>
+        </div>
+        <div className="my-3 py-3">
+          <h1 className="text-white text-xl my-3 ">
+            I’ve been focusing on the following technologies in my development
+            process:
+          </h1>
+          <div className="flex flex-wrap w-4/5 mx-auto justify-center gap-10 mt-3">
+            {icons.map((icon, index) => (
+              <div className="flex flex-col items-center justify-center text-center" key={index}>
+                <img
+                  src={icon.src}
+                  alt={icon.alt}
+                  className="w-16 h-16 object-contain"
+                />
+                <div className="text-center">
+                  <h1 className="font-medium mt-1">{icon.name}</h1>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
