@@ -4,10 +4,10 @@ import FurkanSoylu from '../images/FurkanSoylu.svg'
 
 function Header() {
   return (
-    <div className='flex justify-center items-center p-5 bg-primary h-36'>
+    <div className='flex justify-center items-center p-2 lg:p-5 bg-primary h-20 lg:h-36'>
       <div>
         <Link to='/'>
-          <img className='h-36 w-full animate-flicker drop-shadow-[0_0_10px_#02fced]' src={ FurkanSoylu } alt="Furkan Soylu" />
+          <img className='sh-20 lg:h-36 w-full animate-flicker drop-shadow-[0_0_10px_#02fced]' src={ FurkanSoylu } alt="Furkan Soylu" />
         </Link>
       </div>
     </div>

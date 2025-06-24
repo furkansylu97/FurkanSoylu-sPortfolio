@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       <Header />
-      <div className="bg-gradient-to-r from-primary to-white gap-10">
+      <div className="bg-gradient-to-r from-primary to-white gap-5 lg:gap-10">
         <Intro />
         <div className="w-full pl-20">
           <About />
