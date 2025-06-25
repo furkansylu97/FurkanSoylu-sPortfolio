@@ -1,30 +1,62 @@
 export const experiences = [
   {
     id: "213213123213e3",
-    company: "SUSTABLE Istanbul / Turkey (Remote)",
-    title:"Front-End Developer",
+    company: "SUSTABLE",
+    location: "Istanbul / Turkey (Remote)",
+    title: "Front-End Developer",
     period: "Jan 2024 - Apr 2024",
-    description : ""
+    description: [
+      "Led and implemented various projects by developing user-friendly and accessible web interfaces using HTML, CSS, and JavaScript",
+      "Developed dynamic and responsive web applications using modern JavaScript frameworks such as React.js",
+      "Enhanced user experience by applying UI/UX design principles to optimize interfaces",
+      "Collaborated with the design team using tools like Figma to create seamless designs",
+      "Applied various optimization techniques and utilized performance monitoring tools to improve the performance of web applications",
+      "Using project management tools, I ensured effective communication within the team and completed tasks on time",
+      "Prioritized continuous learning and personal development by staying updated with new technologies and trends",
+    ],
   },
   {
     id: "213213123213e2",
-    company: "TECHCAREER.NET (ONLINE)",
-    title:"Webweld: Javascript Front-End Bootcamp",
+    company: "TECHCAREER.NET",
+    location: "Istanbul / Turkey (Remote)",
+    title: "Webweld: Javascript Front-End Bootcamp",
     period: "Mar 2024 - May 2024",
-    description : ""
+    description: [
+      "Developed front-end projects using JavaScript, enhancing my skills in modern web development",
+      "Built a movie website using React, leveraging the power of component-based architecture",
+      "Utilized SCSS for modular and maintainable styling, ensuring a clean and professional design",
+      "Integrated TMDB API to fetch and display dynamic movie data, implementing asynchronous data handling",
+      "Designed responsive web layouts, ensuring compatibility across various devices and screen sizes",
+      "Implemented dynamic URL routing to create seamless navigation experiences",
+      "Employed frameworks and libraries such as Bootstrap and Tailwind CSS, Sass to streamline development and ensure consistency",
+      "Gained hands-on experience in front-end development best practices, improving code quality and performance",
+    ],
   },
   {
     id: "213213123213e1",
-    company: "BTK AKADEMI, Izmir/ Turkey",
-    title:"Back-End Workshop With Advanced Python",
+    company: "BTK AKADEMI",
+    location: "Izmir/ Turkey",
+    title: "Back-End Workshop With Advanced Python",
     period: "Feb 2024 - Mar 2024",
-    description : ""
+    description: [
+      "Developed a full-stack e-commerce website project using Django framework",
+      "Implemented responsive designs for optimal user experience across devices",
+      "Created dynamic URL routing to enhance site navigation and functionality",
+      "Utilized Django admin panel for efficient data management",
+      "Employed SQLite as the database management system",
+    ],
   },
   {
     id: "213213123213e0",
-    company: "BTK AKADEMI, Mersin/ Turkey",
-    title:"Front-End Workshop",
+    company: "BTK AKADEMI ",
+    location: "Mersin/ Turkey",
+    title: "Front-End Workshop",
     period: "Nov 2023 - Dec 2023",
-    description : ""
+    description: [
+      "Completed a frontend bootcamp focusing on HTML, CSS and Bootstrap libraries for web development",
+      "Developed a corporate website project emphasizing responsive design principles",
+      "Implemented various features including sliders libraries, Google Fonts, and Google Analytics",
+      "Learned and applied version control with Git for project collaboration and management",
+    ],
   },
 ];

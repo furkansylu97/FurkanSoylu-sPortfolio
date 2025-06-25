@@ -18,6 +18,7 @@ export default {
         secondary: "#02fced",
         tertiary: "#7ae601",
         transparent: "transparent",
+        quaternary: "#ff6f3c",
       },
     },
   },
