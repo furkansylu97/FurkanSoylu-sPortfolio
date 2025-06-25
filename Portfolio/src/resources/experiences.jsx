@@ -2,7 +2,7 @@ export const experiences = [
   {
     id: "213213123213e3",
     company: "SUSTABLE",
-    location: "Istanbul / Turkey (Remote)",
+    location: "Istanbul / Turkey",
     title: "Front-End Developer",
     period: "Jan 2024 - Apr 2024",
     description: [
@@ -18,7 +18,7 @@ export const experiences = [
   {
     id: "213213123213e2",
     company: "TECHCAREER.NET",
-    location: "Istanbul / Turkey (Remote)",
+    location: "Istanbul / Turkey",
     title: "Webweld: Javascript Front-End Bootcamp",
     period: "Mar 2024 - May 2024",
     description: [
