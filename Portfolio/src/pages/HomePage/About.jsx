@@ -6,7 +6,7 @@ import icons from "../../components/Icons";
 function About() {
   return (
     <section>
-      <div className="h-[100vh] lg:h-screen">
+      <div className="h-svh lg:h-dvh">
         <SectionTitle title="About Me" />
         <div className="block lg:flex w-full">
           <div className="h-32 lg:h-[45vh] w-full lg:w-1/2 pr-10 lg:pr-52">
