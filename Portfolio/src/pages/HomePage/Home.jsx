@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Intro from "./Intro";
 import About from "./About";
 import KnowledgeAndExperiences from "./KnowledgeAndExperiences";
+import Projects from "./Projects";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <div className="w-full pl-5 lg:pl-20">
           <About />
           <KnowledgeAndExperiences />
+          <Projects />
         </div>
       </div>
     </div>

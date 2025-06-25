@@ -13,6 +13,7 @@ function KnowledgeAndExperiences() {
           <div className="flex flex-col gap-3 lg:gap-6 border-l-2 lg:border-l-4 border-cyan-800 w-1/3 lg:w-1/6 h-1/3 lg:h-1/6">
             {experiences.map((experience, index) => (
               <div
+                key={experience.id}
                 className="cursor-pointer"
                 onClick={() => {
                   setSelectedItemIndex(index);
@@ -42,15 +43,17 @@ function KnowledgeAndExperiences() {
             </span>
             <div className="mt-1 lg:mt-2 flex flex-col gap-1 lg:gap-2">
               {Array.isArray(experiences[selectedItemIndex].description) ? (
-                experiences[selectedItemIndex].description.map((line, index) => (
-                  <p
-                    key={index}
-                    className="text-black text-[11px] lg:text-base flex items-start gap-2"
-                  >
-                    <span className="text-secondary">•</span>
-                    <span>{line}</span>
-                  </p>
-                ))
+                experiences[selectedItemIndex].description.map(
+                  (line, index) => (
+                    <p
+                      key={index}
+                      className="text-black text-[11px] lg:text-base flex items-start gap-2"
+                    >
+                      <span className="text-secondary">•</span>
+                      <span>{line}</span>
+                    </p>
+                  )
+                )
               ) : (
                 <p className="text-black text-sm lg:text-base">
                   {experiences[selectedItemIndex].description}
