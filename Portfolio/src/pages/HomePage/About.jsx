@@ -6,10 +6,10 @@ import icons from "../../components/Icons";
 function About() {
   return (
     <section>
-      <div className="h-screen">
+      <div className="h-[100vh] lg:h-screen">
         <SectionTitle title="About Me" />
         <div className="block lg:flex w-full">
-          <div className="h-1/5 lg:h-[45vh] w-full lg:w-1/2 pr-10 lg:pr-52">
+          <div className="h-32 lg:h-[45vh] w-full lg:w-1/2 pr-10 lg:pr-52">
             <DotLottieReact
               src="https://lottie.host/50888e59-bf72-47b5-8a35-8f6f9b3e691c/5Vk5cWtcEP.lottie"
               loop
@@ -38,7 +38,7 @@ function About() {
           </div>
         </div>
         <div className="my-1 lg:my-3 py-1 lg:py-3">
-          <h1 className="text-black lg:text-white text-xs lg:text-xl w-5/6 lg:w-full my-10 lg:my-3 ">
+          <h1 className="text-black lg:text-white text-xs lg:text-xl w-5/6 lg:w-full my-1 lg:my-3 ">
             I’ve been focusing on the following technologies in my development
             process:
           </h1>
