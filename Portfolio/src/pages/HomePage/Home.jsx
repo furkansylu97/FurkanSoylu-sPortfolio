@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header";
 import Intro from "./Intro";
 import About from "./About";
+import KnowledgeAndExperiences from "./KnowledgeAndExperiences";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Intro />
         <div className="w-full pl-5 lg:pl-20">
           <About />
+          <KnowledgeAndExperiences />
         </div>
       </div>
     </div>
