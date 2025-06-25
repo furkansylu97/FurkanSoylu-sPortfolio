@@ -38,11 +38,11 @@ function About() {
           </div>
         </div>
         <div className="my-1 lg:my-3 py-1 lg:py-3">
-          <h1 className="text-black lg:text-white text-xs lg:text-xl w-5/6 lg:w-full my-2 lg:my-3 ">
+          <h1 className="text-black lg:text-white text-xs lg:text-xl w-5/6 lg:w-full my-10 lg:my-3 ">
             I’ve been focusing on the following technologies in my development
             process:
           </h1>
-          <div className="flex flex-wrap w-5/6 lg:w-4/5 mx-auto justify-center gap-3 lg:gap-10 mt-1 lg:mt-3 pr-10 lg:pr-0">
+          <div className="flex flex-wrap w-5/6 lg:w-4/5 mx-auto justify-center gap-3 lg:gap-10 mt-3 pr-10 lg:pr-0">
             {icons.map((icon, index) => (
               <div className="flex flex-col items-center justify-center text-center" key={index}>
                 <img
