@@ -6,7 +6,7 @@ function Projects() {
   const [selectedItemIndex, setSelectedItemIndex] = React.useState(0);
 
   return (
-    <section className="h-svh lg:h-lvh -mt-24 lg:-mt-0">
+    <section className="h-svh lg:h-lvh -mt-20 lg:-mt-0">
       <div>
         <SectionTitle title="Projects" />
         <div className="flex py-16 lg:py-24 gap-2 lg:gap-10 ">

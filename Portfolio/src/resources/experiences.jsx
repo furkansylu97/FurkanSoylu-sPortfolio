@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    id: "213213123213e3",
+    id: "213213123213e4",
     company: "SUSTABLE",
     location: "Istanbul / Turkey",
     title: "Front-End Developer",
@@ -16,7 +16,7 @@ export const experiences = [
     ],
   },
   {
-    id: "213213123213e2",
+    id: "213213123213e3",
     company: "TECHCAREER.NET",
     location: "Istanbul / Turkey",
     title: "Webweld: Javascript Front-End Bootcamp",
@@ -33,7 +33,7 @@ export const experiences = [
     ],
   },
   {
-    id: "213213123213e1",
+    id: "213213123213e2",
     company: "BTK AKADEMI",
     location: "Izmir/ Turkey",
     title: "Back-End Workshop With Advanced Python",
@@ -47,7 +47,7 @@ export const experiences = [
     ],
   },
   {
-    id: "213213123213e0",
+    id: "213213123213e1",
     company: "BTK AKADEMI ",
     location: "Mersin/ Turkey",
     title: "Front-End Workshop",
@@ -57,6 +57,20 @@ export const experiences = [
       "Developed a corporate website project emphasizing responsive design principles",
       "Implemented various features including sliders libraries, Google Fonts, and Google Analytics",
       "Learned and applied version control with Git for project collaboration and management",
+    ],
+  },
+  {
+    id: "213213123213e0",
+    company: "KATIP CELEBI UNIVERSITY ",
+    location: "Izmir/ Turkey",
+    title: "Mechatronics Engineering",
+    period: "Bachelor's Degree",
+    description: [
+      "( 2018 - 2023 )",
+      "Graduated from a comprehensive, 100% English-taught multidisciplinary engineering program, with a strong focus on mechanics, electronics, control systems, and computer science",
+      "Developed analytical problem-solving skills through real-world engineering projects and simulations",
+      "Conducted academic projects involving sensor integration, and control systems design",
+      "Graduated with a Europass Diploma Supplement, enabling international academic and professional recognition",
     ],
   },
 ];

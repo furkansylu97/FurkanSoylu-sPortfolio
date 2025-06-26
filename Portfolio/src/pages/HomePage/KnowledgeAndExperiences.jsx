@@ -8,7 +8,7 @@ function KnowledgeAndExperiences() {
   return (
     <section className="h-svh lg:h-lvh">
       <div>
-        <SectionTitle title="Experiences" />
+        <SectionTitle title="Experiences & Education" />
         <div className="flex py-16 lg:py-32 gap-5 lg:gap-10 ">
           <div className="flex flex-col gap-3 lg:gap-6 border-l-2 lg:border-l-4 border-cyan-800 w-1/3 lg:w-1/6 h-1/3 lg:h-1/6">
             {experiences.map((experience, index) => (
