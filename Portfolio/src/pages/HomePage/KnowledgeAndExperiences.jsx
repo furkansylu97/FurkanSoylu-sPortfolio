@@ -30,7 +30,7 @@ function KnowledgeAndExperiences() {
                     <div
                       className={`cursor-pointer px-2 py-2 rounded-md transition-all duration-300 ${
                         selectedItemIndex === index
-                          ? "bg-tertiary text-white font-bold"
+                          ? "bg-tertiary text-black font-bold"
                           : "text-white bg-primary"
                       }`}
                       onClick={() => setSelectedItemIndex(index)}
