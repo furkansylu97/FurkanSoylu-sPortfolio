@@ -11,7 +11,7 @@ function Contact() {
   };
 
   return (
-    <section className="h-svh lg:h-lvh -mt-44 lg:-mt-0">
+    <section className="h-svh lg:h-lvh -mt-24 lg:-mt-0">
       <div>
         <SectionTitle title="Say Hello" />
         <div className="flex flex-col h-[80vh] lg:h-full lg:flex-row my-5 lg:my-10 gap-10 lg:gap-0 justify-between items-center">

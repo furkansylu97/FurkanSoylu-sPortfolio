@@ -37,8 +37,8 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="my-1 lg:my-3 py-1 lg:py-3">
-          <h1 className="text-black lg:text-white text-xs lg:text-xl w-5/6 lg:w-full my-1 lg:my-3 ">
+        <div className="my-1 lg:my-3 py-1 lg:py-3 mx-4 lg:mx-0">
+          <h1 className="text-black lg:text-white text-xs lg:text-xl w-5/6 lg:w-full my-1 lg:my-3S">
             I’ve been focusing on the following technologies in my development
             process:
           </h1>

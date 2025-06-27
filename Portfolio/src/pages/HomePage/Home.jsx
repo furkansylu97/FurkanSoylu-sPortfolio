@@ -6,6 +6,7 @@ import KnowledgeAndExperiences from "./KnowledgeAndExperiences";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import SocialContact from "./SocialContact";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
           <Projects />
           <Contact />
           <Footer />
+          <SocialContact />
         </div>
       </div>
     </div>
