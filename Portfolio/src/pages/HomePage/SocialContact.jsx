@@ -18,7 +18,7 @@ const socials = [
   },
   {
     icon: <AiOutlineLinkedin />,
-    href: "https://www.linkedin.com/in/furkansoylu/",
+    href: "https://www.linkedin.com/in/furkansoylu97",
     label: "LinkedIn Profile",
   },
   {
