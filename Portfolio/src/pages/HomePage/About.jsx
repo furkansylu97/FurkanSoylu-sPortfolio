@@ -5,7 +5,7 @@ import icons from "../../components/Icons";
 
 function About() {
   return (
-    <section>
+    <section id="about-section">
       <div className="h-svh lg:h-dvh -mt-24 lg:-mt-0">
         <SectionTitle title="About Me" />
         <div className="block lg:flex w-full">

@@ -40,6 +40,14 @@ function Intro() {
 
     return () => clearTimeout(timeout);
   }, [text, isDeleting, loopIndex]);
+
+  const handleGetStartedClick = () => {
+    const section = document.getElementById("about-section");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="h-svh lg:h-dvh">
       <div className="h-[100vh] lg:h-[85vh] block lg:flex columns-1 lg:columns-2 flex-wrap lg:flex-nowrap justify-center">
@@ -59,11 +67,20 @@ function Intro() {
             cutting-edge technologies, I deliver solutions that are both
             innovative and dependable.
           </p>
-          <button className="border lg:border-2 border-secondary text-secondary text-xs lg:text-2xl font-normal lg:font-medium mt-2 lg:mt-10 px-5 lg:px-10 py-2 lg:py-5 rounded">Get Started</button>
+          <button
+            className="border lg:border-2 border-secondary text-secondary text-xs lg:text-2xl font-normal lg:font-medium mt-2 lg:mt-10 px-5 lg:px-10 py-2 lg:py-5 rounded"
+            onClick={handleGetStartedClick}
+          >
+            Get Started
+          </button>
         </div>
         <div className="w-full lg:w-1/2 h-1/2 lg:h-full flex relative justify-center items-center select-none pb-10 lg:pb-0">
-          <div className="lg:h-2/3 lg:w-2/3 inline-block z-0 animate-spin-slow"> 
-            <img src={logo} alt="logo" className="h-64 lg:h-full w-64 lg:w-full object-contain origin-center" />
+          <div className="lg:h-2/3 lg:w-2/3 inline-block z-0 animate-spin-slow">
+            <img
+              src={logo}
+              alt="logo"
+              className="h-64 lg:h-full w-64 lg:w-full object-contain origin-center"
+            />
           </div>
           <div className="absolute z-10">
             <img src={user} alt="user" className=" w-48 lg:w-96 h-48 lg:h-96" />
