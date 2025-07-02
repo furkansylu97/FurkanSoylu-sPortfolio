@@ -13,7 +13,7 @@ function KnowledgeAndExperiences() {
     <section className="h-svh lg:h-lvh">
       <div>
         <SectionTitle title="Experiences & Education" />
-        <div className="flex flex-col lg:flex-row py-8 lg:py-32 gap-5 lg:gap-10">
+        <div className="flex flex-col lg:flex-row mt-16 lg:mt-0 py-8 lg:py-32 gap-5 lg:gap-10">
           <div className="lg:w-1/6">
             <div className="w-100 lg:hidden">
               <Swiper
