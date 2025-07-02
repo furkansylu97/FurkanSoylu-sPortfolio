@@ -17,7 +17,7 @@ function About() {
             />
           </div>
           <div className="flex flex-col w-5/6 lg:w-1/2 items-center justify-center p-3 lg:p-4 mx-4 lg:mx-5 gap-2 lg:gap-4 border-solid border-2 border-secondary rounded-2xl italic">
-            <p className="text-primary text-xs lg:text-base font-normal lg:font-medium">
+            <p className="text-primary text-[10px] lg:text-base font-medium">
               My name is Furkan Soylu, and I graduated from the Department of
               Mechatronics Engineering at Katip Çelebi University, where the
               language of instruction is English. Although my background is in
@@ -27,7 +27,7 @@ function About() {
               user-friendly and visually appealing interfaces while keeping up
               with the latest technology trends.
             </p>
-            <p className="text-primary text-xs lg:text-base font-normal lg:font-medium">
+            <p className="text-primary text-[10px] lg:text-base font-medium">
               Outside of my professional life, I enjoy traveling, listening to
               music, camping, and attending theater performances. These
               activities inspire my creativity and help me approach my work with
