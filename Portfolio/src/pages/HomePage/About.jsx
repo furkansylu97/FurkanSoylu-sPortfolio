@@ -42,7 +42,7 @@ function About() {
             I’ve been focusing on the following technologies in my development
             process:
           </h1>
-          <div className="flex flex-wrap w-5/6 lg:w-4/5 mx-auto justify-center gap-3 lg:gap-10 mt-3 pr-10 lg:pr-0">
+          <div className="flex flex-wrap w-full px-3 lg:px-0 lg:w-4/5 mx-auto justify-center gap-3 lg:gap-10 mt-3 pr-10 lg:pr-0">
             {icons.map((icon, index) => (
               <div className="flex flex-col items-center justify-center text-center" key={index}>
                 <img
